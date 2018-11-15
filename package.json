@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:imudin/vue2-leaflet-pathtransform.git"
+    "url": "git+https://github.com/imudin/vue2-leaflet-pathtransform.git"
   },
   "keywords": [
     "vue2",
@@ -20,9 +20,9 @@
   "author": "imudin (http://imudin.github.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imudin/vue2-leaflet-pathtransform/issues"
+    "url": "https://github.com/imudin/vue2-leaflet-pathtransform.git/issues"
   },
-  "homepage": "https://github.com/imudin/vue2-leaflet-pathtransform/#readme",
+  "homepage": "https://github.com/imudin/vue2-leaflet-pathtransform.git/#readme",
   "dependencies": {
     "leaflet": "^1.3.4",
     "vue2-leaflet": "^1.2.3"
