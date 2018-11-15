@@ -1,6 +1,6 @@
 {
   "name": "vue2-leaflet-pathtransform",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "pathtransform plugin extension for vue2-leaflet package",
   "main": "dist/Vue2LeafletPathTransform.js",
   "scripts": {
