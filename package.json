@@ -1,0 +1,35 @@
+{
+  "name": "vue2-leaflet-pathtransform",
+  "version": "1.0.1",
+  "description": "pathtransform plugin extension for vue2-leaflet package",
+  "main": "dist/Vue2LeafletPathTransform.js",
+  "scripts": {
+    "build": "vue build Vue2LeafletPathTransform.vue --prod --lib --config build.config.js",
+    "example": "vue build example.vue",
+    "dev": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imudin/vue2-leaflet-pathtransform.git"
+  },
+  "keywords": [
+    "vue2",
+    "leaflet",
+    "pathtransform"
+  ],
+  "author": "imudin (http://imudin.github.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imudin/vue2-leaflet-pathtransform/issues"
+  },
+  "homepage": "https://github.com/imudin/vue2-leaflet-pathtransform/#readme",
+  "dependencies": {
+    "leaflet": "^1.3.4",
+    "vue2-leaflet": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "vue-cli": "~2.8.2",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
