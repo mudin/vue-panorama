@@ -6,9 +6,12 @@
 
 <script>
 
-import L from 'leaflet'
-import { propsBinder,findRealParent, LPolygon } from 'vue2-leaflet'
-import './L.Path.Transform-src.js'
+import L from 'leaflet';
+import { propsBinder,findRealParent, LPolygon } from 'vue2-leaflet';
+import 'leaflet-path-transform';
+
+L.Util.merge = L.Util.extend;
+
 
 const props = {
   latLngs: {
