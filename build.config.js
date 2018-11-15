@@ -5,7 +5,7 @@ module.exports = {
     externals: [
       nodeExternals(),
       {'leaflet': 'L'},
-      // {'leaflet.rotatedmarker': {root: ['leaflet', 'rotatedmarker']}}
+      {'leaflet-pathtransform': 'L.Path.Transform-src.js'}
     ]
   }
 }
