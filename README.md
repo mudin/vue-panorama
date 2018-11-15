@@ -1,15 +1,15 @@
-# vue2-leaflet-pathtransform
+# vue2-leaflet-path-transform
 
-This is a [pathtransform plugin](https://www.npmjs.com/package/leaflet-path-transform) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
+This is a [path-transform plugin](https://www.npmjs.com/package/leaflet-path-transform) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
 
 ## Install
 
-    npm install --save vue2-leaflet-pathtransform
+    npm install --save vue2-leaflet-path-transform
 
 ## Demo
 
-    git clone https://github.com/imudin/vue2-leaflet-pathtransform
-    cd vue2-leaflet-pathtransform
+    git clone https://github.com/imudin/vue2-leaflet-path-transform
+    cd vue2-leaflet-path-transform
     yarn
     yarn example
 
@@ -49,7 +49,7 @@ something like this
 
 In the same template file, at `<script>` part, this will make the component available only to the template in this file
 
-    import Vue2LeafletPathTransform from 'vue2-leaflet-pathtransform'
+    import Vue2LeafletPathTransform from 'vue2-leaflet-path-transform'
     ...
     export default {
       ...
@@ -65,7 +65,7 @@ In the same template file, at `<script>` part, this will make the component avai
 At main Vue configuration, this will make the component available to all templates in your app
 
     import Vue from 'vue'
-    import Vue2LeafletPathTransform from 'vue2-leaflet-pathtransform'
+    import Vue2LeafletPathTransform from 'vue2-leaflet-path-transform'
     ...
     Vue.component('v-path-transform', Vue2LeafletPathTransform)
 
