@@ -1,0 +1,15 @@
+node_modules/
+dist
+dist/*
+/dist
+/dist/*
+public
+public/*
+src/libs
+src/libs/*
+plugins
+plugins/*
+libs
+libs/*
+utils
+utils/*
