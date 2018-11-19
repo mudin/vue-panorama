@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import L from 'leaflet';
+// import L from 'leaflet';
 import * as Vue2Leaflet from 'vue2-leaflet';
 import Vue2LeafletPathTransform from './Vue2LeafletPathTransform';
 
