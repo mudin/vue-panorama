@@ -11,8 +11,7 @@ module.exports = {
     parser: 'babel-eslint'
   },
   globals: {
-    window: true,
-    L: false
+    window: true
   },
   plugins: [
     'prettier'

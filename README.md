@@ -1,15 +1,15 @@
-# vue2-leaflet-path-transform
+# vue-panorama
 
 This is a [path-transform plugin](https://www.npmjs.com/package/leaflet-path-transform) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
 
 ## Install
 
-    npm install --save vue2-leaflet-path-transform
+    npm install --save vue-panorama
 
 ## Demo
 
-    git clone https://github.com/imudin/vue2-leaflet-path-transform
-    cd vue2-leaflet-path-transform
+    git clone https://github.com/mudin/vue-panorama
+    cd vue-panorama
     yarn
     yarn example
 
@@ -49,7 +49,7 @@ something like this
 
 In the same template file, at `<script>` part, this will make the component available only to the template in this file
 
-    import Vue2LeafletPathTransform from 'vue2-leaflet-path-transform'
+    import Vue2LeafletPathTransform from 'vue-panorama'
     ...
     export default {
       ...
@@ -65,7 +65,7 @@ In the same template file, at `<script>` part, this will make the component avai
 At main Vue configuration, this will make the component available to all templates in your app
 
     import Vue from 'vue'
-    import Vue2LeafletPathTransform from 'vue2-leaflet-path-transform'
+    import Vue2LeafletPathTransform from 'vue-panorama'
     ...
     Vue.component('v-path-transform', Vue2LeafletPathTransform)
 
@@ -76,7 +76,7 @@ At main Vue configuration, this will make the component available to all templat
 
 ## Author
 
-[imudin](https://github.com/imudin/)
+[mudin](https://github.com/mudin/)
 
 
 ## License
