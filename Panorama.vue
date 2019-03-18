@@ -10,8 +10,8 @@
     @mousedown="handle"
     @mouseup="handle"
     @mouseleave="handle">
-    <div v-if="caption && ready" class="pv-caption">{{caption}}</div>
-    <div v-if="!ready" class="pv-loader">Loading...</div>
+    <div v-if="caption && ready" class="pv-caption" :style="captionStyling">{{caption}}</div>
+    <div v-if="!ready" class="pv-loader" :style="loaderStyling">Loading...</div>
   </div>
 </template>
 
@@ -74,8 +74,36 @@ export default {
       return {
         backgroundImage: "url(" + this.source + ") ",
         backgroundRepeat:repeat,
-        transition: "all " + this.animationTime + "ms " + this.easing
+        transition: "all " + this.animationTime + "ms " + this.easing,
+        position: "relative",
+        float: 'left',
+        width: '100%',
+        height: '100%',
+        backgroundSize: 'cover',
+        cursor: 'move'
       };
+    },
+    loaderStyling() {
+      return {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        marginLeft: '-30px',
+        marginRight: '-9px',
+        backgroundColor: 'white',
+      }
+    },
+
+    captionStyling() {
+      return {
+        padding: '10px 10px',
+        width: '100%',
+        background: 'rgba(0,0,0,0.2)',
+        color: 'white',
+        textAlign: 'center',
+        position: 'absolute',
+        bottom: 0
+      }
     }
   },
   mounted() {
@@ -239,39 +267,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.pv-container {
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  cursor: move;
-}
-.pv-caption {
-  padding: 10px 10px;
-  margin: 0 0 0 0;
-  width: 100%;
-  background: rgba(0,0,0,0.2);
-  color: white;
-  font-size: 14px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  float: right;
-}
-.pv-loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -30px;
-  margin-right: -9px;
-  background-color: white;
-}
-</style>
-
