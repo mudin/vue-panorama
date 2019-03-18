@@ -1,7 +1,7 @@
 {
   "name": "vuejs-panorama",
-  "version": "1.0.7",
-  "description": "path-transform plugin extension for vue2-leaflet package",
+  "version": "1.0.8",
+  "description": "VueJS Panorama Viewer",
   "main": "dist/Panorama.js",
   "scripts": {
     "build": "vue build Panorama.vue --prod --lib --config build.config.js",
