@@ -1,5 +1,5 @@
 {
-  "name": "vue-panorama",
+  "name": "vuejs-panorama",
   "version": "1.0.7",
   "description": "path-transform plugin extension for vue2-leaflet package",
   "main": "dist/Panorama.js",
