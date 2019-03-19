@@ -156,7 +156,6 @@ export default {
 
         scope.ready = true;
         scope.$emit('load');
-        scope.reset();
       };
     },
 
