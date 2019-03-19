@@ -240,17 +240,7 @@ export default {
       }
 
       this.$el.style.backgroundPosition = this.start.x + "px " + this.start.y + "px";
-      let angle = this.start.x*360./this.width;
-      this.$emit('change', {
-        x:this.start.x,
-        y:this.start.y,
-        angle,
-        width:this.width,
-        height:this.height,
-        imageWidth:this.imageWidth,
-        imageHeight:this.imageHeight
-      });
-
+      this.$emit('viewchange', this.getView());
       this.origin.x = e.clientX;
       this.origin.y = e.clientY;
 
@@ -280,6 +270,18 @@ export default {
         y: 0
       };
       this.$el.style.backgroundPosition = "0 0";
+    },
+    getView() {
+      let angle = this.start.x*360./this.width;
+      return {
+        x:this.start.x,
+        y:this.start.y,
+        angle,
+        width:this.width,
+        height:this.height,
+        imageWidth:this.imageWidth,
+        imageHeight:this.imageHeight
+      }  
     }
   }
 };
