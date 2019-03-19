@@ -7,7 +7,7 @@
       </p>
       <a href="https://github.com/mudin/vue-panorama"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     </div>
-    <Panorama :source="url1" :caption="caption"/>
+    <Panorama :source="url1" :caption="caption" @change="onChange"/>
     <Panorama :source="url2" :caption="caption"/>
   </div>
 </template>
@@ -20,8 +20,8 @@ export default {
     Panorama
   },
   methods: {
-    handlePathTransformed(path) {
-      console.log(path);
+    onChange(e,angle) {
+      console.log(e,angle);
     }
   },
   data() {
