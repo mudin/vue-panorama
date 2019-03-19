@@ -156,6 +156,7 @@ export default {
 
         scope.ready = true;
         scope.$emit('load');
+        scope.reset();
       };
     },
 
@@ -239,8 +240,8 @@ export default {
         }
       }
 
-      this.$el.style.backgroundPosition = this.start.x + "px " + this.start.y + "px";
-      this.$emit('viewchange', this.getView());
+      this.change(this.start.x,this.start.y);
+      
       this.origin.x = e.clientX;
       this.origin.y = e.clientY;
 
@@ -265,12 +266,18 @@ export default {
       return false;
     },
     reset() {
-      this.start = {
-        x: 0,
-        y: 0
-      };
-      this.$el.style.backgroundPosition = "0 0";
+      this.change(0,0);
     },
+
+    change(x,y) {
+      this.start = {
+        x,
+        y
+      };
+      this.$el.style.backgroundPosition = x + "px " + y + "px";
+      this.$emit('viewchange', this.getView());
+    },
+
     getView() {
       let angle = this.start.x*360./this.width;
       return {
