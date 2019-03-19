@@ -78,7 +78,7 @@ export default {
       return {
         backgroundImage: "url(" + this.source + ") ",
         backgroundRepeat:repeat,
-        transition: "all " + this.animationTime + "ms " + this.easing,
+        transition: "background " + this.animationTime + "ms " + this.easing,
         position: "relative",
         float: 'left',
         width: '100%',
