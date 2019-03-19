@@ -278,6 +278,11 @@ export default {
       this.$emit('viewchange', this.getView());
     },
 
+    setRotation(angle) {
+      const x = this.width*angle/360.;
+      this.change(x,0);
+    },
+
     getView() {
       let angle = this.start.x*360./this.width;
       return {
