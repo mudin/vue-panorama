@@ -42,7 +42,7 @@ body {
 }
 .demo {
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
 .demo .header {
   position: relative;

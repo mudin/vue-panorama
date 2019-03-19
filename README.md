@@ -1,6 +1,6 @@
 # VueJS Panorama Viewer
 Embed panorama into your website
-
+(lightweight~4.56 kB)
 VueJS version of [JQuery Panorama Viewer](https://github.com/peachananr/panorama_viewer)
 
 ## Demo

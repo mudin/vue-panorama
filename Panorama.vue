@@ -62,7 +62,11 @@ export default {
   props,
   data() {
     return {
-      ready: false
+      ready: false,
+      width:200,
+      height:100,
+      imageWidth:200,
+      imageHeight:100
     };
   },
   computed: {
@@ -80,7 +84,7 @@ export default {
         width: '100%',
         height: '100%',
         minHeight: '100px',
-        backgroundSize: 'contain',
+        backgroundSize:'auto '+ this.height+'px',
         cursor: 'move'
       };
     },
@@ -126,6 +130,8 @@ export default {
       this.image = new Image();
       this.image.src = this.source;
       this.image.onload = () => {
+        scope.imageWidth = scope.image.naturalWidth;
+        scope.imageHeight = scope.image.naturalHeight;
         var el = scope.$el;
         let elbounds = {
             w: parseInt(el.clientWidth),
