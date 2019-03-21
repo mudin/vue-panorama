@@ -2,8 +2,12 @@
   <a href="https://github.com/mudin/vue-panorama/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mudin/vue-panorama.svg" alt="License">
   </a>
-  [![npm version](https://badge.fury.io/js/vue-panorama.svg)](https://badge.fury.io/js/vue-panorama)
-  [![HitCount](http://hits.dwyl.io/mudin/vue-panorama.svg)](http://hits.dwyl.io/mudin/vue-panorama)
+  <a href="https://badge.fury.io/js/vue-panorama">
+    <img src="https://badge.fury.io/js/vue-panorama.svg" alt="npm version" height="18">
+  </a>
+  <a href="http://hits.dwyl.io/mudin/vue-panorama">
+    <img src="http://hits.dwyl.io/mudin/vue-panorama.svg" alt="HitCount" height="18">
+  </a>
 </p>
 
 # VueJS Panorama Viewer
