@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://github.com/mudin/vue-panorama/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mudin/vue-panorama.svg" alt="License">
+  </a>
+  <a href="https://badge.fury.io/js/vue-panorama">
+    <img src="https://badge.fury.io/js/vue-panorama.svg" alt="npm version">
+  </a>
+  <a href="http://hits.dwyl.io/mudin/vue-panorama">
+    <img src="http://hits.dwyl.io/mudin/vue-panorama.svg" alt="HitCount">
+  </a>
+</p>
+
 # VueJS Panorama Viewer
 Embed panorama into your website
 (lightweight~4.56 kB)
@@ -77,7 +89,8 @@ Or
 ## TODO List
 * Auto Rotate
 
-## Contributing
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mudin/vue-panorama/issues)
+
 If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
 
 ## LICENSE
