@@ -8,6 +8,10 @@
   <a href="http://hits.dwyl.io/mudin/vue-panorama">
     <img src="http://hits.dwyl.io/mudin/vue-panorama.svg" alt="HitCount">
   </a>
+  <a href="https://github.com/mudin/vue-panorama/blob/master/dist/Panorama.js">
+    <img src="https://img.badgesize.io/mudin/vue-panorama/master/dist/Panorama.js" alt="size">
+  </a>
+  
 </p>
 
 # VueJS Panorama Viewer
