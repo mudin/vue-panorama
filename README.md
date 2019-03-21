@@ -3,10 +3,10 @@
     <img src="https://img.shields.io/github/license/mudin/vue-panorama.svg" alt="License">
   </a>
   <a href="https://badge.fury.io/js/vue-panorama">
-    <img src="https://badge.fury.io/js/vue-panorama.svg" alt="npm version" height="18">
+    <img src="https://badge.fury.io/js/vue-panorama.svg" alt="npm version">
   </a>
   <a href="http://hits.dwyl.io/mudin/vue-panorama">
-    <img src="http://hits.dwyl.io/mudin/vue-panorama.svg" alt="HitCount" height="18">
+    <img src="http://hits.dwyl.io/mudin/vue-panorama.svg" alt="HitCount">
   </a>
 </p>
 
