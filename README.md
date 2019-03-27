@@ -21,6 +21,8 @@ VueJS version of [JQuery Panorama Viewer](https://github.com/peachananr/panorama
 ## Demo
 [Demo](https://mudin.github.io/vue-panorama/)
 
+![Demo](https://mudin.github.io/vue-panorama/assets/vuepanorama.gif?raw=true)
+
 ## Getting started
 using npm
 ```
