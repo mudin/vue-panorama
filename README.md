@@ -63,7 +63,7 @@ Panorama by equirectangular image
     <Panorama source="pano.jpg" caption="Awesome Panorama"/>
 </template>
 <script>
-    import { Panorama } from 'vuejs-panorama'
+    import Panorama from 'vuejs-panorama'
 
     export default {
         components: { Panorama }
